@@ -16,12 +16,12 @@
   ],
   "dependencies": [
     {
-      "name": " ArduinoJson",
+      "name": "ArduinoJson",
       "authors": "Benoit Blanchon",
       "frameworks": "arduino"
     },
     {
-      "name": " StreamUtils",
+      "name": "StreamUtils",
       "authors": "Benoit Blanchon",
       "frameworks": "arduino"
     }
