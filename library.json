@@ -14,11 +14,18 @@
       "maintainer": "true"
     }
   ],
-  "dependencies": {
-    "name": " ArduinoJson",
-    "authors": "Benoit Blanchon",
-    "frameworks": "arduino"
-  },
+  "dependencies": [
+    {
+      "name": " ArduinoJson",
+      "authors": "Benoit Blanchon",
+      "frameworks": "arduino"
+    },
+    {
+      "name": " StreamUtils",
+      "authors": "Benoit Blanchon",
+      "frameworks": "arduino"
+    }
+  ],
   "version": "0.1",
   "frameworks": "arduino",
   "platforms": "*"
