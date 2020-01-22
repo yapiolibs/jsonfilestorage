@@ -1,0 +1,25 @@
+{
+  "name": "JsonFileStorage",
+  "keywords": "Json, SPIFFS",
+  "description": "yet another JSON storage",
+  "homepage": "https://github.com/yapiolibs/jsonfilestorage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yapiolibs/jsonfilestorage.git"
+  },
+  "authors": [
+    {
+      "name": "Raoul Rubien",
+      "url": "https://github.com/rubienr",
+      "maintainer": "true"
+    }
+  ],
+  "dependencies": {
+    "name": " ArduinoJson",
+    "authors": "Benoit Blanchon",
+    "frameworks": "arduino"
+  },
+  "version": "0.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
