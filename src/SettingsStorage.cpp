@@ -1,7 +1,16 @@
 #include "SettingsStorage.h"
 
 #include <StreamUtils.h>
+
+#ifdef ESP8266
 #include <FS.h>
+#elif ESP32
+#include <FS.h>
+#include <SPIFFS.h>
+#else
+#error Platform not supported.
+#endif
+
 
 void SettingsStorage::setup() {
     loadSettings();
