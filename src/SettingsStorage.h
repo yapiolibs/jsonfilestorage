@@ -4,7 +4,6 @@
 
 struct SettingsStorage
 {
-
     explicit SettingsStorage(const String &file_path = "/settings.json");
 
     void setup();
@@ -12,7 +11,6 @@ struct SettingsStorage
     int8_t loadSettings();
 
     int8_t saveSettings();
-
 
     JsonVariant getDocumentRoot() ;
 
@@ -33,6 +31,5 @@ protected:
     DynamicJsonDocument document{4500};
 
     const JsonVariant getDocumentRoot() const;
-
 };
 
